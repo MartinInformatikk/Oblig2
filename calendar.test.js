@@ -15,5 +15,5 @@ test("Tests if year is leap year when NOT divisible by 4", () => {
 });
 
 test("Tests if year is leap year when divisible by 100, but not 400", () => {
-    expect(calendarfunctions.is_leapyear(1700)).toBe(true);
+    expect(calendarfunctions.is_leapyear(1700)).toBe(false);
 });
