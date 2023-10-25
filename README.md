@@ -1,0 +1,5 @@
+- Opprettet et nytt repo.
+- Flyttet innholdet fra oblig_2 over i det nye repo'et.
+- La til .github/workflows/jest.yml
+- yml forteller at ved push til main så skal node.js og alle dependencies, inkludert jest, installeres.
+- Forteller så at jest testene skal kjøres. 
